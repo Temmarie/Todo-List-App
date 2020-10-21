@@ -1,0 +1,31 @@
+{
+  "name": "Todo-List-App",
+  "version": "1.0.0",
+  "description": "A simple todo list built with JavaScript using local storage.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temmarie/Todo-List-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Temmarie/Todo-List-App/issues"
+  },
+  "homepage": "https://github.com/Temmarie/Todo-List-App#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
