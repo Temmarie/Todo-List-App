@@ -32,12 +32,12 @@
   <p align="center">
     This is the weather app Project from the Javascript section of the Microverse curriculum.
     <br />
-    <a href="https://github.com/temmarie/todo-list-app"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Temmarie/Todo-List-App"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/temmarie/todo-list-app/issues">Report Bug</a>
+    <a href="https://github.com/Temmarie/Todo-List-App/issues">Report Bug</a>
     ·
-    <a href="https://github.com/temmarie/todo-list-app/issues">Request Feature</a>
+    <a href="https://github.com/Temmarie/Todo-List-App/issues">Request Feature</a>
   </p>
 </p>
 
