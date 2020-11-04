@@ -53,7 +53,7 @@
 # Todo-List-App
 A simple todo list built with JavaScript using local storage.
 
-![image](https://github.com/Temmarie/Todo-list/blob/feature/src/images/todoscreen.png)
+![image](https://github.com/Temmarie/Todo-list-app/blob/feature/src/images/todoscreen.png)
 
 
 ## Built With
