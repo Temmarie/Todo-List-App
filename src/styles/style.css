@@ -1,3 +1,158 @@
-.hello {
-  color: red;
+:root {
+  --primary-clr: #7e96cb;
+  --text-clr: #022adc;
+}
+
+body {
+  background-image: url('../images/todo.jpg');
+  background-size: cover;
+  font-family: 'Itim', cursive;
+}
+
+.container {
+  height: 130vh;
+}
+
+.todo-ctn {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin: 0 auto;
+  color: #333;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  position: relative;
+}
+
+.add-btn {
+  border: 1px solid #333;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 7px 14px;
+  font-size: 20px;
+  background-color: var(--text-clr);
+  color: #fff;
+  cursor: pointer;
+}
+
+.app-name {
+  text-align: center;
+  font-family: 'Itim', cursive;
+  font-size: 102px;
+  color: var(--primary-clr);
+}
+
+.project-ctn {
+  margin-top: 30px;
+  width: 30%;
+  max-height: 300px;
+  text-align: center;
+}
+
+.project-item {
+  border: 2px solid var(--primary-clr);
+  list-style: none;
+  width: 50%;
+  margin: 0 auto 5px auto;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.project-form input,
+.form-input {
+  border: 1px solid #333;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.project-form button,
+.todo-btn,
+.del-btn {
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: var(--text-clr);
+  color: #fff;
+  margin-top: 8px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.tasks-ctn {
+  width: 60%;
+  max-height: 450px;
+  overflow-x: hidden;
+
+  /* scroll */
+}
+
+.task-item {
+  text-align: center;
+}
+
+.title {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-family: 'Itim', cursive;
+  font-size: 37px;
+  cursor: pointer;
+}
+
+.description {
+  margin-bottom: 5px;
+}
+
+.due-date {
+  margin-bottom: 5px;
+  font-weight: 800;
+  font-family: 'Itim', cursive;
+}
+
+.priority {
+  font-weight: 800;
+  font-family: 'Itim', cursive;
+}
+
+.to-do {
+  text-align: center;
+}
+
+.form-item {
+  font-weight: 800;
+  padding: 7px;
+}
+
+.form-header {
+  padding: 7px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.d-none {
+  display: none;
+}
+
+.p-title {
+  padding: 10px;
+  font-size: 23px;
+  text-align: center;
+}
+
+.p-btns {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.todo-form {
+  padding: 20px;
+  background: var(--primary-clr);
+  color: #fff;
+}
+
+.header {
+  font-size: 25px;
+  color: var(--primary-clr);
 }
