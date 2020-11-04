@@ -65,8 +65,6 @@ A simple todo list built with JavaScript using local storage.
 - Vscode
 - Eslint
 
-## Live Link
-[Live demo]()
 
 ### Setup
 
