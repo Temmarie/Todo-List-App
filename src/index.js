@@ -1,4 +1,4 @@
-import './src/styles/style.css';
+import './styles/style.css';
 
 import {
   project, addItem, createTodo, saveForm, edit, todoForm,
