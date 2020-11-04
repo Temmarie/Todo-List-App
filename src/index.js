@@ -235,7 +235,7 @@ function newProject() {
 
 const defaultProject = () => {
   mylist = [];
-  const p = project('Default Project', []);
+  const p = project('First Todo!', []);
   addItem(p, mylist);
 };
 
