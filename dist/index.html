@@ -1,11 +1,56 @@
-<!doctype html>
-  <html>
-   <head>
-     <title>Getting Started</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="app-name">
+      Todo List
+    </h1>
+    <div class="todo-ctn">
+      <button id="add-project" class="add-btn">+</button>
+      <div class="project-ctn">
+        <h3 class="header">Projects List</h3>
+        <ul class="projects" id="projects"></ul>
 
-   </head>
-   <body>
+        <form action="" class="project-form d-none" id="project-form">
+          <input type="text" placeholder="Project Name..." id="form-input"><br>
+          <button id="create" type="submit">Create</button>
+          <button id="cancel" type="reset">Cancel</button>
+      </form>
+      </div>
+      
+      <div class="tasks-ctn todo-item d-none">
+        <div id="project-title" class="p-title"></div>
+        <div id="todo-controls" class="p-btns"></div>
+        <div class="task-item check">
+        </div>
+      </div>
 
-    <script src="bundle.js"></script>
-   </body>
-  </html>
+      <div class="todo-form d-none">
+        <form action="" class="to-do" name="todoForm" id="todos">
+            <h4 class="form-header">ADD NEW TODO </h4> 
+            <label for="title" class="form-item">Title</label><br>
+            <input type="text" name="title" class="form-input"><br>
+            <label for="description" class="form-item"> Description </label>
+            <textarea name="description" id="description" class="form-input"></textarea><br>
+            <label for="date" class="form-item"> Due date </label><br>
+            <input type="date" name="date" id="date"><br>
+            <label for="priority" class="form-item"> Priority</label>
+            <select name="priority" class="form-item">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+              </select>
+        </form>
+        <button class="todo-btn remove-form"> Cancel</button>
+    </div>
+    </div>
+  </div>
+<script src="bundle.js"></script>
+</body>
+</html>

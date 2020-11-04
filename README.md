@@ -32,12 +32,12 @@
   <p align="center">
     This is the weather app Project from the Javascript section of the Microverse curriculum.
     <br />
-    <a href="https://github.com/temmarie/todo-list-app"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Temmarie/Todo-List-App"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/temmarie/todo-list-app/issues">Report Bug</a>
+    <a href="https://github.com/Temmarie/Todo-List-App/issues">Report Bug</a>
     ·
-    <a href="https://github.com/temmarie/todo-list-app/issues">Request Feature</a>
+    <a href="https://github.com/Temmarie/Todo-List-App/issues">Request Feature</a>
   </p>
 </p>
 
@@ -53,7 +53,7 @@
 # Todo-List-App
 A simple todo list built with JavaScript using local storage.
 
-<!-- ![image](https://github.com/Temmarie/Todo-list/blob/feature/src/images/todoscreen.png) -->
+![image](https://github.com/Temmarie/Todo-List-App/blob/feature/src/images/todoscreen.png)
 
 
 ## Built With
@@ -65,8 +65,6 @@ A simple todo list built with JavaScript using local storage.
 - Vscode
 - Eslint
 
-## Live Link
-[Live demo]()
 
 ### Setup
 
