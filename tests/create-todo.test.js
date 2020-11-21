@@ -2,19 +2,19 @@ const todoList = (title, description, dueDate, priority) => ({
   title, description, dueDate, priority,
 });
 const todoForm = {
-    title: {
-        value: 'Tife'
-    },
-    description: {
-        value: 'Tife-List'
-    },
-    date: {
-        value: 2020-11-20
-    },
-    priority: {
-        value: 'low'
-    },
-}
+  title: {
+    value: 'Tife',
+  },
+  description: {
+    value: 'Tife-List',
+  },
+  date: {
+    value: 2020 - 11 - 20,
+  },
+  priority: {
+    value: 'low',
+  },
+};
 const createTodo = () => {
   const title = todoForm.title.value;
   const description = todoForm.description.value;
@@ -24,30 +24,24 @@ const createTodo = () => {
 };
 
 it('should pass if the properties are correct', () => {
-    const action = createTodo();
-    const expectation = {title: "Tife", description: "Tife-List", dueDate: 2020-11-20, priority: 'low'};
-    expect(action.title).toStrictEqual('Tife');
+  const action = createTodo();
+  expect(action.title).toStrictEqual('Tife');
 });
 
 it('should pass if the properties are correct', () => {
-    const action = createTodo();
-    const expectation = {title: "Tife", description: "Tife-List", dueDate: 2020-11-20, priority: 'low'};
-    expect(action.description).toStrictEqual('Tife-List');
+  const action = createTodo();
+  expect(action.description).toStrictEqual('Tife-List');
 });
 
 it('should pass if the properties are correct', () => {
-    const action = createTodo();
-    const expectation = {title: "Tife", description: "Tife-List", dueDate: 2020-11-20, priority: 'low'};
-    expect(action.priority).toStrictEqual('low');
+  const action = createTodo();
+  expect(action.priority).toStrictEqual('low');
 });
-
 
 it('Creating New Todo', () => {
-    const action = createTodo();
-    const expectation = {title: "Tife", description: "Tife-List", dueDate: 2020-11-20, priority: 'low'};
-    expect(action).toStrictEqual(expectation);
+  const action = createTodo();
+  const expectation = {
+    title: 'Tife', description: 'Tife-List', dueDate: 2020 - 11 - 20, priority: 'low',
+  };
+  expect(action).toStrictEqual(expectation);
 });
-
-
-
-

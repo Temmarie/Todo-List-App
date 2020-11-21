@@ -4,7 +4,7 @@
   "description": "A simple todo list built with JavaScript using local storage.",
   "private": true,
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
     "build": "webpack"
   },
   "repository": {
