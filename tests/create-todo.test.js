@@ -9,10 +9,10 @@ const todoForm = {
         value: 'Tife-List'
     },
     date: {
-        value: new Date()
+        value: 2020-11-20
     },
     priority: {
-        value: 1
+        value: 'low'
     },
 }
 const createTodo = () => {
@@ -22,8 +22,32 @@ const createTodo = () => {
   const priority = todoForm.priority.value;
   return todoList(title, description, dueDate, priority);
 };
-test('Creating New Todo', () => {
+
+it('should pass if the properties are correct', () => {
     const action = createTodo();
-    const expectation = {title: "Tife", description: "Tife-List", dueDate: new Date(), priority: 1};
-    expect(action).toEqual(expectation);
+    const expectation = {title: "Tife", description: "Tife-List", dueDate: 2020-11-20, priority: 'low'};
+    expect(action.title).toStrictEqual('Tife');
 });
+
+it('should pass if the properties are correct', () => {
+    const action = createTodo();
+    const expectation = {title: "Tife", description: "Tife-List", dueDate: 2020-11-20, priority: 'low'};
+    expect(action.description).toStrictEqual('Tife-List');
+});
+
+it('should pass if the properties are correct', () => {
+    const action = createTodo();
+    const expectation = {title: "Tife", description: "Tife-List", dueDate: 2020-11-20, priority: 'low'};
+    expect(action.priority).toStrictEqual('low');
+});
+
+
+it('Creating New Todo', () => {
+    const action = createTodo();
+    const expectation = {title: "Tife", description: "Tife-List", dueDate: 2020-11-20, priority: 'low'};
+    expect(action).toStrictEqual(expectation);
+});
+
+
+
+
